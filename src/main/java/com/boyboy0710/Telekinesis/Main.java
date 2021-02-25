@@ -15,9 +15,6 @@ public final class Main extends JavaPlugin {
         System.out.println("            Telekinesis 를러그인을 성공적으로 불러왔습니다");
         System.out.println("               플러그인 제작자ㅣ:booyboy0710");
         System.out.println("----------------------------------------------------------------------");
-
-        getCommand("event").setExecutor(new Main()); //Executor을 등록하는 매소드
-        getCommand("event").setTabCompleter(new Main()); //TabCompleter을 등록하는 매소드
     }
 
     @Override
