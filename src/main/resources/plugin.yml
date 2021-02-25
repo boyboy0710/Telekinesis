@@ -1,0 +1,4 @@
+name: Telekinesis
+version: ${project.version}
+main: com.boyboy0710.Telekinesis.Main
+api-version: 1.16
